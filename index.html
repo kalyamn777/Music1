@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+  <div class="container">
+    <div class="navbar">
+        <img src="images/p21.jpg" class="logo2">
+        <nav>
+            <ul id="menuList">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="sign.html">Sign In</a></li>
+                <li><a href="" class="hbtn">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/mi.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+    <div class="row2">
+        <div class="col2">
+          <h2 class="anim1">The Staccato Cafe</h2><br>
+          <h2 class="anim1">Feel The Music</h2>
+          <p class="anim">We are here to create wonders, come join us in this journey</p><br>
+          <a class="hbtn" href="video.html">Join Now </a>
+        </div>
+        <div class="col3">
+            <img src="images/p11.png" class="cimg">
+        </div>
+    </div>
+    <div class="social-links">
+        <img src="images/yt.png">
+        <img src="images/tw.png">
+        <img src="images/ig.png">
+    </div>
+  </div>
+</div>
+
+ <script>
+    var menuList = document.getElementById("menuList");
+
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+
+ </script>
+
+</body>
+</html>
